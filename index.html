@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOCTA — агентство статусного маркетинга</title>
+  <meta name="description" content="NOCTA — креативное маркетинговое агентство полного цикла. Стратегия, бренд, digital и performance для брендов, которые задают уровень.">
+  <meta name="theme-color" content="#07040f">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23a855f7'/%3E%3Cstop offset='1' stop-color='%23ff2bd6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%2307040f'/%3E%3Cpath d='M18 46V18l28 28V18' stroke='url(%23g)' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <!-- Background layers -->
+  <div class="bg" aria-hidden="true">
+    <div class="blob blob--1" data-parallax="0.15"></div>
+    <div class="blob blob--2" data-parallax="-0.1"></div>
+    <div class="blob blob--3" data-parallax="0.08"></div>
+    <div class="grid-lines"></div>
+    <div class="grain"></div>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="nav__inner glass">
+      <a href="#top" class="logo" aria-label="NOCTA — на главную">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient></defs><path d="M8 24V8l16 16V8" stroke="url(#lg)" stroke-width="3.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="logo__text">NOCTA</span>
+      </a>
+      <nav class="nav__links" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#approach">Подход</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#expertise">Экспертиза</a>
+        <a href="#team">Команда</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary btn--sm nav__cta magnetic"><span>Обсудить проект</span></a>
+      <button class="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Мобильная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#approach">Подход</a>
+      <a href="#cases">Кейсы</a>
+      <a href="#expertise">Экспертиза</a>
+      <a href="#team">Команда</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact" class="btn btn--primary"><span>Обсудить проект</span></a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <!-- 1. HERO -->
+    <section class="hero" id="top">
+      <div class="hero__orb" aria-hidden="true">
+        <div class="orb"></div>
+        <div class="orb-ring orb-ring--1"></div>
+        <div class="orb-ring orb-ring--2"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="eyebrow reveal"><span class="dot"></span> Креативное агентство · Москва — Дубай</p>
+        <h1 class="hero__title reveal" data-delay="1">
+          Маркетинг,<br>который выглядит<br>как <em class="serif grad">статус</em>
+        </h1>
+        <p class="hero__sub reveal" data-delay="2">
+          NOCTA создаёт бренды, кампании и digital-продукты для компаний, которые не согласны на «нормально». Стратегия, эстетика и измеримый рост — в одной команде.
+        </p>
+        <div class="hero__actions reveal" data-delay="3">
+          <a href="#contact" class="btn btn--primary magnetic"><span>Обсудить проект</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#cases" class="btn btn--ghost magnetic"><span>Смотреть кейсы</span></a>
+        </div>
+        <ul class="hero__stats reveal" data-delay="4">
+          <li><strong>12</strong><span>лет на рынке</span></li>
+          <li><strong>190+</strong><span>запущенных проектов</span></li>
+          <li><strong>38</strong><span>наград индустрии</span></li>
+        </ul>
+      </div>
+      <div class="marquee" aria-label="Нам доверяют">
+        <div class="marquee__track">
+          <span>AURELIA</span><i>✦</i><span>Vantor Capital</span><i>✦</i><span>MIRAGE Hotels</span><i>✦</i><span>Kōru</span><i>✦</i><span>Solenne Paris</span><i>✦</i><span>ORBIT Motors</span><i>✦</i><span>Lumen Bank</span><i>✦</i><span>Velvet&nbsp;&amp;&nbsp;Co</span><i>✦</i>
+          <span aria-hidden="true">AURELIA</span><i aria-hidden="true">✦</i><span aria-hidden="true">Vantor Capital</span><i aria-hidden="true">✦</i><span aria-hidden="true">MIRAGE Hotels</span><i aria-hidden="true">✦</i><span aria-hidden="true">Kōru</span><i aria-hidden="true">✦</i><span aria-hidden="true">Solenne Paris</span><i aria-hidden="true">✦</i><span aria-hidden="true">ORBIT Motors</span><i aria-hidden="true">✦</i><span aria-hidden="true">Lumen Bank</span><i aria-hidden="true">✦</i><span aria-hidden="true">Velvet&nbsp;&amp;&nbsp;Co</span><i aria-hidden="true">✦</i>
+        </div>
+      </div>
+      <a href="#services" class="scroll-hint" aria-label="Прокрутить к услугам"><span></span></a>
+    </section>
+
+    <!-- 2. SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal"><span class="dot"></span> 01 — Услуги</p>
+          <h2 class="reveal" data-delay="1">Полный цикл <em class="serif grad">влияния</em></h2>
+          <p class="section__lead reveal" data-delay="2">От смысла до продаж. Каждая услуга — отдельная сильная дисциплина, а вместе они работают как единая система роста.</p>
+        </header>
+        <div class="services">
+          <article class="card glass tilt reveal" data-delay="1">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.6 6.6L21 9.3l-5 4.4 1.5 6.8L12 17l-5.5 3.5L8 13.7 3 9.3l6.4-.7z"/></svg></div>
+            <h3>Стратегия бренда</h3>
+            <p>Позиционирование, платформа бренда и tone of voice, которые делают вас очевидным выбором для премиальной аудитории.</p>
+            <ul class="tags"><li>Аудит</li><li>Платформа</li><li>Нейминг</li></ul>
+          </article>
+          <article class="card glass tilt reveal" data-delay="2">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3a15 15 0 010 18M3 12h18"/></svg></div>
+            <h3>Айдентика и дизайн</h3>
+            <p>Визуальные системы, в которых каждая деталь говорит о статусе: от логотипа до упаковки и motion-гайдов.</p>
+            <ul class="tags"><li>Логотип</li><li>Гайдлайн</li><li>Motion</li></ul>
+          </article>
+          <article class="card glass tilt reveal" data-delay="3">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+            <h3>Digital-продукты</h3>
+            <p>Сайты, e-commerce и Telegram Mini Apps с безупречным UX, скоростью загрузки и вау-эффектом с первого экрана.</p>
+            <ul class="tags"><li>Web</li><li>E-com</li><li>Mini Apps</li></ul>
+          </article>
+          <article class="card glass tilt reveal" data-delay="1">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div>
+            <h3>Performance-маркетинг</h3>
+            <p>Платный трафик, сквозная аналитика и CRO. Мы считаем не клики, а выручку и стоимость клиента.</p>
+            <ul class="tags"><li>Ads</li><li>Аналитика</li><li>CRO</li></ul>
+          </article>
+          <article class="card glass tilt reveal" data-delay="2">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 10h8M8 13h5"/></svg></div>
+            <h3>Контент и SMM</h3>
+            <p>Продакшн, съёмки, контент-стратегия и коммьюнити, которые формируют желание, а не просто охваты.</p>
+            <ul class="tags"><li>Продакшн</li><li>Reels</li><li>Комьюнити</li></ul>
+          </article>
+          <article class="card glass tilt reveal" data-delay="3">
+            <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div>
+            <h3>Спецпроекты и PR</h3>
+            <p>Коллаборации, ивенты и инфоповоды, о которых говорят. Создаём моменты, которые становятся частью репутации.</p>
+            <ul class="tags"><li>Коллабы</li><li>Ивенты</li><li>PR</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. APPROACH -->
+    <section class="section" id="approach">
+      <div class="container approach">
+        <header class="section__head approach__head">
+          <p class="eyebrow reveal"><span class="dot"></span> 02 — Подход</p>
+          <h2 class="reveal" data-delay="1">Метод, в котором <em class="serif grad">нет случайностей</em></h2>
+          <p class="section__lead reveal" data-delay="2">Пять этапов, отточенных на 190+ проектах. Прозрачные сроки, понятные артефакты на каждом шаге и одна цель — результат, который можно измерить.</p>
+          <a href="#contact" class="btn btn--ghost magnetic reveal" data-delay="3"><span>Начать с диагностики</span></a>
+        </header>
+        <ol class="timeline">
+          <li class="timeline__line" aria-hidden="true"><span class="timeline__progress"></span></li>
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <div class="step__body glass">
+              <div class="step__meta">1–2 недели</div>
+              <h3>Погружение</h3>
+              <p>Интервью с основателями, анализ рынка, конкурентов и аудитории. Находим точку, в которой бренд может стать номером один.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <div class="step__body glass">
+              <div class="step__meta">2 недели</div>
+              <h3>Стратегия</h3>
+              <p>Формулируем позиционирование, ключевые сообщения и KPI. Вы получаете документ, по которому можно принимать решения.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <div class="step__body glass">
+              <div class="step__meta">3–6 недель</div>
+              <h3>Креатив</h3>
+              <p>Big idea, визуальная система и прототипы. Тестируем концепции на реальной аудитории до запуска, а не после.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <div class="step__body glass">
+              <div class="step__meta">4–8 недель</div>
+              <h3>Производство и запуск</h3>
+              <p>Продакшн, разработка, медиаплан. Запускаем синхронно во всех каналах — с эффектом события, а не тихого релиза.</p>
+            </div>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">05</span>
+            <div class="step__body glass">
+              <div class="step__meta">постоянно</div>
+              <h3>Рост и оптимизация</h3>
+              <p>Еженедельные отчёты, A/B-тесты и масштабирование того, что работает. Маркетинг как живая система, а не разовая акция.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 4. CASES -->
+    <section class="section" id="cases">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow reveal"><span class="dot"></span> 03 — Кейсы</p>
+            <h2 class="reveal" data-delay="1">Результаты, которые <em class="serif grad">видно</em></h2>
+          </div>
+          <p class="section__lead reveal" data-delay="2">Несколько проектов из портфолио. Цифры — из отчётов клиентов, бренды — под NDA и изменены.</p>
+        </header>
+        <div class="cases">
+          <article class="case glass reveal shine" data-delay="1">
+            <div class="case__visual case__visual--1" aria-hidden="true">
+              <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice"><defs><radialGradient id="c1" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ff2bd6"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></radialGradient></defs><circle cx="200" cy="130" r="120" fill="url(#c1)" opacity=".55"/><g fill="none" stroke="rgba(255,255,255,.35)"><circle cx="200" cy="130" r="40"/><circle cx="200" cy="130" r="70"/><circle cx="200" cy="130" r="100"/><circle cx="200" cy="130" r="130"/></g><text x="200" y="140" text-anchor="middle" font-family="Unbounded" font-size="28" fill="#fff" letter-spacing="6">AURELIA</text></svg>
+            </div>
+            <div class="case__body">
+              <div class="case__tags"><span>Ювелирный бренд</span><span>Ребрендинг</span></div>
+              <h3>AURELIA — от локальной марки к люксу</h3>
+              <p>Новая айдентика, флагманский e-commerce и кампания с цифровыми амбассадорами.</p>
+              <div class="case__metrics"><div><strong>+240%</strong><span>ROI кампании</span></div><div><strong>×3,1</strong><span>средний чек</span></div></div>
+            </div>
+          </article>
+          <article class="case glass reveal shine" data-delay="2">
+            <div class="case__visual case__visual--2" aria-hidden="true">
+              <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke-width="2"><path d="M0 200 Q100 60 200 140 T400 80" stroke="#22e4ff" opacity=".9"/><path d="M0 220 Q120 100 220 170 T400 120" stroke="#a855f7" opacity=".8"/><path d="M0 240 Q140 140 240 200 T400 160" stroke="#ff2bd6" opacity=".7"/></g><g fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.25)"><rect x="40" y="40" width="70" height="70" rx="12"/><rect x="290" y="150" width="70" height="70" rx="12"/></g><text x="200" y="70" text-anchor="middle" font-family="Unbounded" font-size="22" fill="#fff" letter-spacing="3">Vantor</text></svg>
+            </div>
+            <div class="case__body">
+              <div class="case__tags"><span>Финтех</span><span>Performance</span></div>
+              <h3>Vantor Capital — инвестиции без шума</h3>
+              <p>Сквозная аналитика, новая воронка и Telegram Mini App для онбординга инвесторов.</p>
+              <div class="case__metrics"><div><strong>−47%</strong><span>стоимость лида</span></div><div><strong>+18 000</strong><span>клиентов за квартал</span></div></div>
+            </div>
+          </article>
+          <article class="case glass reveal shine" data-delay="1">
+            <div class="case__visual case__visual--3" aria-hidden="true">
+              <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice"><g opacity=".9"><polygon points="200,30 330,230 70,230" fill="none" stroke="rgba(255,255,255,.5)" stroke-width="1.5"/><polygon points="200,80 290,220 110,220" fill="rgba(124,58,237,.35)"/><circle cx="200" cy="150" r="30" fill="#ff2bd6" opacity=".55"/></g><text x="200" y="250" text-anchor="middle" font-family="Unbounded" font-size="16" fill="#fff" letter-spacing="8">MIRAGE</text></svg>
+            </div>
+            <div class="case__body">
+              <div class="case__tags"><span>Гостеприимство</span><span>Бренд + Digital</span></div>
+              <h3>MIRAGE Hotels — отель как впечатление</h3>
+              <p>Платформа бренда, иммерсивный сайт с бронированием и контент-стратегия для 4 рынков.</p>
+              <div class="case__metrics"><div><strong>+62%</strong><span>прямых бронирований</span></div><div><strong>4,9★</strong><span>рейтинг гостей</span></div></div>
+            </div>
+          </article>
+          <article class="case glass reveal shine" data-delay="2">
+            <div class="case__visual case__visual--4" aria-hidden="true">
+              <svg viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice"><g fill="none" stroke="rgba(255,255,255,.18)"><path d="M0 40h400M0 90h400M0 140h400M0 190h400M0 240h400"/></g><g><rect x="60" y="150" width="34" height="90" rx="6" fill="#7c3aed"/><rect x="120" y="120" width="34" height="120" rx="6" fill="#9b5cff"/><rect x="180" y="90" width="34" height="150" rx="6" fill="#c04dff"/><rect x="240" y="60" width="34" height="180" rx="6" fill="#ff2bd6"/><rect x="300" y="30" width="34" height="210" rx="6" fill="#22e4ff"/></g></svg>
+            </div>
+            <div class="case__body">
+              <div class="case__tags"><span>Автомобили</span><span>Кампания</span></div>
+              <h3>ORBIT Motors — запуск электрокроссовера</h3>
+              <p>Интегрированная кампания: спецпроект, коллаборация с художниками, digital-шоурум.</p>
+              <div class="case__metrics"><div><strong>1,2 млрд</strong><span>охват кампании</span></div><div><strong>+310%</strong><span>заявок на тест-драйв</span></div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. EXPERTISE -->
+    <section class="section" id="expertise">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal"><span class="dot"></span> 04 — Экспертиза</p>
+          <h2 class="reveal" data-delay="1">Цифры, за которыми <em class="serif grad">репутация</em></h2>
+        </header>
+        <div class="counters">
+          <div class="counter glass reveal" data-delay="1"><strong><span class="count" data-to="190">0</span><small>+</small></strong><span>проектов в 14 странах</span></div>
+          <div class="counter glass reveal" data-delay="2"><strong><span class="count" data-to="4.8" data-decimals="1">0</span><small> млрд ₽</small></strong><span>выручки клиентов под нашим маркетингом</span></div>
+          <div class="counter glass reveal" data-delay="3"><strong><span class="count" data-to="96">0</span><small>%</small></strong><span>клиентов продлевают контракт</span></div>
+          <div class="counter glass reveal" data-delay="4"><strong><span class="count" data-to="38">0</span></strong><span>наград профильных фестивалей и рейтингов*</span></div>
+        </div>
+        <div class="expertise">
+          <div class="skills glass reveal">
+            <h3>Ключевые компетенции</h3>
+            <div class="skill"><div class="skill__top"><span>Брендинг и айдентика</span><span>98%</span></div><div class="skill__bar"><i style="--w:98%"></i></div></div>
+            <div class="skill"><div class="skill__top"><span>Digital-продукты и UX</span><span>95%</span></div><div class="skill__bar"><i style="--w:95%"></i></div></div>
+            <div class="skill"><div class="skill__top"><span>Performance и аналитика</span><span>92%</span></div><div class="skill__bar"><i style="--w:92%"></i></div></div>
+            <div class="skill"><div class="skill__top"><span>Контент и продакшн</span><span>90%</span></div><div class="skill__bar"><i style="--w:90%"></i></div></div>
+          </div>
+          <div class="awards glass reveal" data-delay="2">
+            <h3>Награды и признание</h3>
+            <ul>
+              <li><span class="awards__year">2026</span><span>Grand Prix · Neon Creative Awards</span><span class="awards__cat">Брендинг</span></li>
+              <li><span class="awards__year">2025</span><span>Агентство года · Digital Vision</span><span class="awards__cat">Digital</span></li>
+              <li><span class="awards__year">2025</span><span>Gold · Aurora Design Prize</span><span class="awards__cat">Айдентика</span></li>
+              <li><span class="awards__year">2024</span><span>Top-3 креативных агентств · Rating Forma</span><span class="awards__cat">Рейтинг</span></li>
+              <li><span class="awards__year">2024</span><span>Best Performance Case · Growth Summit</span><span class="awards__cat">Performance</span></li>
+            </ul>
+            <p class="note">* Названия наград и рейтингов вымышлены для демонстрации.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. TEAM -->
+    <section class="section" id="team">
+      <div class="container">
+        <header class="section__head section__head--row">
+          <div>
+            <p class="eyebrow reveal"><span class="dot"></span> 05 — Команда</p>
+            <h2 class="reveal" data-delay="1">Люди, которые <em class="serif grad">задают планку</em></h2>
+          </div>
+          <p class="section__lead reveal" data-delay="2">42 специалиста: стратеги, арт-директоры, разработчики и аналитики. Ниже — те, кто будет вести ваш проект лично.</p>
+        </header>
+        <div class="team">
+          <article class="member glass reveal tilt" data-delay="1">
+            <div class="avatar" style="--a:#a855f7;--b:#ff2bd6"><span>ВЛ</span></div>
+            <h3>Вера Лунина</h3><p class="member__role">Основатель, CEO</p>
+            <p class="member__bio">15 лет в брендинге. Строит агентства, в которые хочется прийти работать.</p>
+          </article>
+          <article class="member glass reveal tilt" data-delay="2">
+            <div class="avatar" style="--a:#22e4ff;--b:#7c3aed"><span>МО</span></div>
+            <h3>Марк Орлов</h3><p class="member__role">Креативный директор</p>
+            <p class="member__bio">Автор кампаний с охватом более миллиарда. Ненавидит шаблоны.</p>
+          </article>
+          <article class="member glass reveal tilt" data-delay="3">
+            <div class="avatar" style="--a:#ff2bd6;--b:#ff8a3d"><span>АС</span></div>
+            <h3>Алиса Север</h3><p class="member__role">Head of Strategy</p>
+            <p class="member__bio">Превращает хаос данных в позиционирование, которое продаёт.</p>
+          </article>
+          <article class="member glass reveal tilt" data-delay="1">
+            <div class="avatar" style="--a:#7c3aed;--b:#22e4ff"><span>ДК</span></div>
+            <h3>Даниил Кравец</h3><p class="member__role">Tech Lead</p>
+            <p class="member__bio">Сайты, e-com и Mini Apps, которые грузятся быстрее, чем вы моргнёте.</p>
+          </article>
+          <article class="member glass reveal tilt" data-delay="2">
+            <div class="avatar" style="--a:#c04dff;--b:#ff2bd6"><span>ЕВ</span></div>
+            <h3>Ева Волкова</h3><p class="member__role">Арт-директор</p>
+            <p class="member__bio">Визуальные системы для люкса, фэшн и hospitality.</p>
+          </article>
+          <article class="member glass reveal tilt" data-delay="3">
+            <div class="avatar" style="--a:#22e4ff;--b:#ff2bd6"><span>ИР</span></div>
+            <h3>Игорь Рябов</h3><p class="member__role">Head of Performance</p>
+            <p class="member__bio">Управляет бюджетами в 9 знаков и знает цену каждого клиента.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. TESTIMONIALS -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow reveal"><span class="dot"></span> 06 — Отзывы</p>
+          <h2 class="reveal" data-delay="1">Говорят <em class="serif grad">клиенты</em></h2>
+        </header>
+        <div class="quotes">
+          <figure class="quote glass reveal" data-delay="1">
+            <div class="quote__mark" aria-hidden="true">“</div>
+            <blockquote>NOCTA не просто сделали ребрендинг — они изменили то, как нас воспринимает рынок. Через полгода мы подняли цены на 40%, и клиенты стали благодарить.</blockquote>
+            <figcaption><span class="mini-avatar">ЕМ</span><span><strong>Елена Миронова</strong><small>Основатель, AURELIA</small></span></figcaption>
+          </figure>
+          <figure class="quote glass reveal quote--accent" data-delay="2">
+            <div class="quote__mark" aria-hidden="true">“</div>
+            <blockquote>Редкое агентство, где креатив и цифры живут в одной голове. Каждую неделю мы видим, как растёт выручка, а не только красивые макеты.</blockquote>
+            <figcaption><span class="mini-avatar">ТГ</span><span><strong>Тимур Галиев</strong><small>CMO, Vantor Capital</small></span></figcaption>
+          </figure>
+          <figure class="quote glass reveal" data-delay="3">
+            <div class="quote__mark" aria-hidden="true">“</div>
+            <blockquote>Команда уровня международных агентств, но с вовлечённостью стартапа. Запуск прошёл как премьера — нас обсуждали все.</blockquote>
+            <figcaption><span class="mini-avatar">СЛ</span><span><strong>София Ланге</strong><small>Директор по бренду, ORBIT Motors</small></span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. FAQ -->
+    <section class="section" id="faq">
+      <div class="container faq-wrap">
+        <header class="section__head">
+          <p class="eyebrow reveal"><span class="dot"></span> 07 — FAQ</p>
+          <h2 class="reveal" data-delay="1">Частые <em class="serif grad">вопросы</em></h2>
+          <p class="section__lead reveal" data-delay="2">Не нашли ответ? Напишите нам — ответим в течение рабочего дня.</p>
+        </header>
+        <div class="faq">
+          <details class="faq__item glass reveal" data-delay="1" open>
+            <summary>С какими бюджетами вы работаете?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__content"><p>Проекты начинаются от 1,5 млн ₽ за брендинг и от 600 тыс. ₽ в месяц за performance-сопровождение. Точная смета — после диагностики, она бесплатна.</p></div>
+          </details>
+          <details class="faq__item glass reveal" data-delay="2">
+            <summary>Сколько времени занимает проект?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__content"><p>Стратегия и айдентика — 6–10 недель, сайт или Mini App — 6–12 недель. Сроки фиксируем в договоре и держим их.</p></div>
+          </details>
+          <details class="faq__item glass reveal" data-delay="3">
+            <summary>Работаете ли вы с зарубежными рынками?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__content"><p>Да, у нас офисы в Москве и Дубае и опыт запусков в 14 странах: ОАЭ, Казахстан, Европа и Юго-Восточная Азия.</p></div>
+          </details>
+          <details class="faq__item glass reveal" data-delay="4">
+            <summary>Как вы измеряете результат?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__content"><p>Согласуем KPI на этапе стратегии: выручка, CAC, LTV, узнаваемость. Подключаем сквозную аналитику и даём доступ к живому дашборду.</p></div>
+          </details>
+          <details class="faq__item glass reveal" data-delay="5">
+            <summary>Можно ли заказать только одну услугу?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__content"><p>Конечно. Многие клиенты начинают с одного направления — например, сайта или кампании, — и остаются с нами на годы.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. CTA + CONTACT -->
+    <section class="section cta" id="contact">
+      <div class="container">
+        <div class="cta__box glass">
+          <div class="cta__glow" aria-hidden="true"></div>
+          <div class="cta__text">
+            <p class="eyebrow reveal"><span class="dot"></span> 08 — Контакт</p>
+            <h2 class="reveal" data-delay="1">Готовы стать <em class="serif grad">эталоном</em> в своей нише?</h2>
+            <p class="section__lead reveal" data-delay="2">Расскажите о задаче — в течение 24 часов вернёмся с первыми идеями и планом диагностики. Берём не более 6 новых проектов в квартал.</p>
+            <ul class="contacts reveal" data-delay="3">
+              <li><span>Email</span><a href="mailto:hello@nocta.agency">hello@nocta.agency</a></li>
+              <li><span>Telegram</span><a href="#contact">@nocta_agency</a></li>
+              <li><span>Офисы</span>Москва · Дубай</li>
+            </ul>
+          </div>
+          <form class="form reveal" data-delay="2" novalidate>
+            <div class="field">
+              <input type="text" id="f-name" name="name" placeholder=" " required autocomplete="name">
+              <label for="f-name">Ваше имя</label>
+            </div>
+            <div class="field">
+              <input type="text" id="f-contact" name="contact" placeholder=" " required autocomplete="email">
+              <label for="f-contact">Email или Telegram</label>
+            </div>
+            <fieldset class="chips">
+              <legend>Бюджет проекта</legend>
+              <label><input type="radio" name="budget" value="1" checked><span>до 2 млн ₽</span></label>
+              <label><input type="radio" name="budget" value="2"><span>2–5 млн ₽</span></label>
+              <label><input type="radio" name="budget" value="3"><span>5 млн ₽+</span></label>
+            </fieldset>
+            <div class="field">
+              <textarea id="f-msg" name="message" rows="4" placeholder=" " required></textarea>
+              <label for="f-msg">Расскажите о задаче</label>
+            </div>
+            <p class="form__error" role="alert" hidden>Пожалуйста, заполните все поля.</p>
+            <button type="submit" class="btn btn--primary btn--block magnetic"><span>Отправить заявку</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="form__success" role="status" aria-live="polite" hidden>
+              <div class="success__icon"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <h3>Заявка принята</h3>
+              <p>Спасибо! Персональный менеджер свяжется с вами в течение 24 часов.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#top" class="logo"><span class="logo__text">NOCTA</span></a>
+        <p>Агентство статусного маркетинга.<br>Создаём бренды, которые задают уровень.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#services">Услуги</a><a href="#approach">Подход</a><a href="#cases">Кейсы</a><a href="#team">Команда</a><a href="#contact">Контакты</a>
+      </nav>
+      <div class="footer__social">
+        <a href="#contact" aria-label="Telegram">TG</a><a href="#contact" aria-label="Behance">Bē</a><a href="#contact" aria-label="Dribbble">Dr</a><a href="#contact" aria-label="VK">VK</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year">2026</span> NOCTA. Все права защищены.</span>
+      <span>Концепт-сайт. Бренды и данные вымышлены.</span>
+    </div>
+    <div class="footer__giant" aria-hidden="true">NOCTA</div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
